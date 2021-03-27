@@ -78,8 +78,8 @@ Run executable testing script:
 
 >The script will create a results folder with all the program outputs generated from the tests. Check the tests folder if any tests fail to compare with expected output.
 
-Run vimDiffError(vde) executable to compare your error output with test error outputs:
+Run vimDiffError(vde) executable followed by test number to compare your error output with test error outputs:
 ```bash
-./vde 40 <--Test number
+./vde 40
 ```
 ---
